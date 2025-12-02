@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
+        UiControl[] controls = {new TextBox(), new CheckBox()};
+        for (var control : controls) {
+            control.enable();
+        }
+        var control = new TextBox();
 
+        System.out.println(control.isEnabled());
     }
 }
