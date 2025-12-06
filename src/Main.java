@@ -7,5 +7,17 @@ public class Main {
         var control = new TextBox();
 
         System.out.println(control.isEnabled());
+
+        var t = new TexCalculator("ali");
+
+        var rep = new TexReport(t);
+
+
     }
 }
+
+
+
+
+
+
