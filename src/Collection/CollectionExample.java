@@ -36,5 +36,6 @@ public class CollectionExample {
         fruits.clear();
         System.out.println("پس از clear، خالی است؟ " + true); // خروجی: true
         System.out.println("---------------");
+
     }
 }
